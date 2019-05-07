@@ -1,0 +1,4 @@
+*.xml
+*.bak
+coverage-html
+sonar.conf

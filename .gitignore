@@ -1,0 +1,13 @@
+.#*
+\#*\#
+*~
+*.pyc
+*.log
+RepoBasics/
+.sonar*
+.scanner*
+.coverage
+.gitignore
+coverage-html
+*.xml
+*.bak
