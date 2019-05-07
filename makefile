@@ -1,4 +1,5 @@
 CC=gcc
+CFLAGS=-I.
 
 #Basics
 all:
@@ -28,7 +29,7 @@ cleandata:
 %.opp:%.cpp %.conf
 	$(CPP) -c $(CFLAGS) $< -o $@
 
-%.out:%.o
+%.out:%.o example_module.o
 	$(CC) $^ $(LFLAGS) -o $@
 
 %.o:%.c
