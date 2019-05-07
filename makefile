@@ -96,4 +96,4 @@ sonarscan:
 	@bash sonar/sonar.sh
 
 buildwrapper:
-	build-wrapper-linux-x86-64 --out-dir bw-output make clean all
+	build-wrapper-linux-x86-64 --out-dir build make clean all
